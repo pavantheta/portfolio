@@ -11,6 +11,7 @@
 }
 
 body {
+    
     margin: 0;
     line-height: normal;
     font-weight: 300;
@@ -25,7 +26,8 @@ ul {
 
 p {
     margin: 0;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 a {
@@ -67,6 +69,7 @@ h4 {
 
 h5 {
     font-size: 20px;
+    font-weight: 300;
 }
 
 .container {
@@ -74,6 +77,13 @@ h5 {
     max-width: 1450px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    max-width: 70px;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -178,3 +188,32 @@ a{
 .resume-button{
     padding-left: 20px;
 }
+/* About Page */
+.about{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-content{
+    width: 100%;
+    font-weight: 700;
+    max-width: 680px;
+    flex-direction: column;
+}
+
+.heading-one{
+    color: #0466C8;
+}
+
+.heading-two{
+    padding-top: 25px;
+    padding-left: 74px;
+}
+
+.paragraph{
+    padding-top: 40px;
+    padding-left: 120px;
+    font-weight: 300;
+}
+
