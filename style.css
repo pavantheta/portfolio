@@ -234,3 +234,20 @@ a{
 
 /* project */
 
+.arrow{
+    
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 0;
+    border: 1px solid #001233;
+}
+
+.back{
+padding-left: 15px;
+color: #001233;
+}
+
+.back:hover{
+    text-decoration: none;
+}
